@@ -1,3 +1,11 @@
+function loadPokemon(species) {
+	var pkImg = document.createElement('IMG');
+	pkImg.src = pokemon[species];
+	
+	img.setAttribute('title',species);
+	this.appendChild(img);
+}
+
 var pokemon = {
 	quilava: {
 		default: "http://www.pkparaiso.com/imagenes/xy/sprites/animados/quilava.gif"
